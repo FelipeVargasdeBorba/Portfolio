@@ -19,7 +19,7 @@ html {
     --vidro: rgba(255, 255, 255, 0.1);
 }
 
-h2{
+h2 {
     color: var(--secundario);
 }
 
@@ -98,9 +98,10 @@ h1 {
 }
 
 #digitando-texto {
-  min-width: 24ch; /* espaço para 24 letras aproximadamente */
-  text-align: center;
-  display: inline-block;
+    min-width: 24ch;
+    /* espaço para 24 letras aproximadamente */
+    text-align: center;
+    display: inline-block;
 }
 
 .sobre {
@@ -280,9 +281,11 @@ h1 {
         radial-gradient(circle at 90% 80%, var(--secundario)0%, transparent 20%), var(--maisEscuro);
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .menu {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 1rem;
     }
 
@@ -302,6 +305,7 @@ h1 {
     .cabecalho-sub-titulo {
         font-size: 1.2rem;
     }
+
 }
 
 .nome-flutuante {
