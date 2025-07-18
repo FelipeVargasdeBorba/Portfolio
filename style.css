@@ -99,7 +99,6 @@ h1 {
 
 #digitando-texto {
     min-width: 24ch;
-    /* espaço para 24 letras aproximadamente */
     text-align: center;
     display: inline-block;
 }
